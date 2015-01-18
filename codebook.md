@@ -528,14 +528,18 @@
 		
 		The body acceleration signal is measured in y axial from the accelerometer.
 		And the Jerk signals was obtain from this signal.
-		Finally a Fast Fourier Transform (FFT) was applied to this signal.Weighted average of the frequency components to obtain a mean frequency.
+		Finally a Fast Fourier Transform (FFT) was applied to this signal.
+		Weighted average of the frequency components to obtain a mean frequency.
 		
 * fBodyAccJerkMeanfreqZ  
 		
 		11 numeric 
 	       range: -1...1 
 		
-		The body acceleration signal is measured in z axial from the accelerometer.And the Jerk signals was obtain from this signal.Finally a Fast Fourier Transform (FFT) was applied to this signal.Weighted average of the frequency components to obtain a mean frequency.
+		The body acceleration signal is measured in z axial from the accelerometer.
+		And the Jerk signals was obtain from this signal.
+		Finally a Fast Fourier Transform (FFT) was applied to this signal.
+		Weighted average of the frequency components to obtain a mean frequency.
 
 * fBodyGyroMeanX 
 		
@@ -543,7 +547,8 @@
 		   range: -1...1 
 		
 		The body acceleration signal is measured in x axial from the gyroscope.
-		Finally a Fast Fourier Transform (FFT) was applied to this signal.Mean value were estimated from these signals.
+		Finally a Fast Fourier Transform (FFT) was applied to this signal.
+		Mean value were estimated from these signals.
 
 * fBodyGyroMeanY 
 		
@@ -595,7 +600,9 @@
 		10 numeric 
 		   range: -1...1 
 		
-		The body acceleration signal is measured in x axial from the gyroscope.Finally a Fast Fourier Transform (FFT) was applied to this signal.Weighted average of the frequency components to obtain a mean frequency.
+		The body acceleration signal is measured in x axial from the gyroscope.
+		Finally a Fast Fourier Transform (FFT) was applied to this signal.
+		Weighted average of the frequency components to obtain a mean frequency.
 		
 * fBodyGyroMeanfreqY
 		
@@ -621,7 +628,8 @@
 		   range: -1...1 
 		The body acceleration signal is measured from the accelerometer.
 		Also, the magnitude of these three-dimensional signals were calculated using the Euclidean norm.
-		Finally a Fast Fourier Transform (FFT) was applied to this signal.Mean value were estimated from these signals.
+		Finally a Fast Fourier Transform (FFT) was applied to this signal.
+		Mean value were estimated from these signals.
 
 * fBodyAccMagStd 
 		
@@ -662,7 +670,8 @@
 		The body acceleration signal is measured from the accelerometer.
 		And the Jerk signals was obtain from this signal.
 		Also, the magnitude of these three-dimensional signals were calculated using the Euclidean norm.
-		Finally a Fast Fourier Transform (FFT) was applied to this signal.Standard deviation were estimated from these signals.
+		Finally a Fast Fourier Transform (FFT) was applied to this signal.
+		Standard deviation were estimated from these signals.
 		
 * fBodyAccJerkMagMeanfreq 
 

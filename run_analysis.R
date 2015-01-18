@@ -20,14 +20,7 @@ levels(extract_data$Activity)=labels
 
 ## step 4: labels the data set with descriptive variable names.
 data_names<-names(extract_data)
-data_names<-gsub('\\btBody','TimeBody',data_names)
-data_names<-gsub('\\bfBodyBody','FFTBody',data_names)
-data_names<-gsub('\\bfBody','FFTBody',data_names)
-data_names<-gsub('\\btGravity','Gravity',data_names)
-data_names<-gsub('Acc','Accelerometer',data_names)
-data_names<-gsub('Gyro','Gyroscope',data_names)
-data_names<-gsub('Jerk','Jerk',data_names)
-data_names<-gsub('Mag','Magnitude',data_names)
+data_names<-gsub('BodyBody','Body',data_names)
 data_names<-gsub('-std\\(\\)','Std',data_names)
 data_names<-gsub('-mean\\(\\)','Mean',data_names)
 data_names<-gsub('-meanFreq\\(\\)','Meanfreq',data_names)

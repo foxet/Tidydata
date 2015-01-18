@@ -25,7 +25,7 @@
 
 		
 		
-* TimeBodyAccelerometerMeanX 
+* tBodyAccMeanX 
 
 		10	numeric 
 		    range: -1...1 
@@ -33,7 +33,7 @@
 		The body acceleration signal is measured in x axial from the accelerometer.
 		Mean value were estimated from these signals.
 		
-* TimeBodyAccelerometerMeanY 
+* tBodyAccMeanY 
 
 		11  numeric 
 			range: -1...1
@@ -41,7 +41,7 @@
 		The body acceleration signal is measured in y axial from the accelerometer.
 		Mean value were estimated from these signals.
 
-* TimeBodyAccelerometerMeanZ 
+* tBodyAccMeanZ 
 
 		12  numeric 
 		    range: -1...1 
@@ -49,7 +49,7 @@
 		The body acceleration signal is measured in z axial from the accelerometer.
 		Mean value were estimated from these signals.
 
-* TimeBodyAccelerometerStdX 
+* tBodyAccStdX 
 		
 		9	numeric 
 		 	range: -1...1 
@@ -57,7 +57,7 @@
 		The body acceleration signal is measured in x axial from the accelerometer.
 		Standard deviation were estimated from these signals.
 
-* TimeBodyAccelerometerStdY 
+* tBodyAccStdY 
 
 		11  numeric 
 			range: -1...1 
@@ -65,7 +65,7 @@
 		The body acceleration signal is measured in y axial from the accelerometer.
 		Standard deviation were estimated from these signals.
 
-* TimeBodyAccelerometerStdZ 
+* tBodyAccStdZ 
 		
 		11	numeric 
 			range: -1...1 
@@ -73,7 +73,7 @@
 		The body acceleration signal is measured in z axial from the accelerometer.
 		Standard deviation were estimated from these signals.
 		
-* GravityAccelerometerMeanX 
+* tGravityAccMeanX 
 		
 		10	numeric 
 			range: -1...1 
@@ -81,7 +81,7 @@
 		The gravity acceleration signal is measured in x axial from the accelerometer.
 		Mean value were estimated from these signals.
 		
-* GravityAccelerometerMeanY 
+* tGravityAccMeanY 
 		
 	    11  numeric 
 	        range: -1...1 
@@ -89,7 +89,7 @@
 	    The gravity acceleration signal is measured in y axial from the accelerometer.
 	    Mean value were estimated from these signals.
 	    
-* GravityAccelerometerMeanZ 
+* tGravityAccMeanZ 
 		
 		10  numeric 
 			range: -1...1 
@@ -97,7 +97,7 @@
 		The gravity acceleration signal is measured in z axial from the accelerometer.
 		Mean value were estimated from these signals.
 		
-* GravityAccelerometerStdX 
+* tGravityAccStdX 
 		
 		11  numeric 
 			range: -1...1 
@@ -105,7 +105,7 @@
 		The gravity acceleration signal is measured in x axial from the accelerometer.
 		Standard deviation were estimated from these signals.
 		
-* GravityAccelerometerStdY 
+* tGravityAccStdY 
 		
 		11 numeric 
 		   range: -1...1 
@@ -113,7 +113,7 @@
 		The gravity acceleration signal is measured in y axial from the accelerometer.
 		Standard deviation were estimated from these signals.
 
-* GravityAccelerometerStdZ
+* tGravityAccStdZ
 		
 		11 numeric 
 		   range: -1...1 
@@ -121,7 +121,7 @@
 		The gravity acceleration signal is measured in z axial from the accelerometer.
 		Standard deviation were estimated from these signals.
 		
-* TimeBodyAccelerometerJerkMeanX
+* tBodyAccJerkMeanX
  		
  		11 numeric 
  		   range: -1...1 
@@ -130,7 +130,7 @@
  		And the Jerk signals was obtain from this signal.
  		Mean value were estimated from these signals.
  		
-* TimeBodyAccelerometerJerkMeanY 
+* tBodyAccJerkMeanY 
 		
 		11 numeric 
 		   range: -1...1 
@@ -139,7 +139,7 @@
 		And the Jerk signals was obtain from this signal.
 		Mean value were estimated from these signals.
 		
-* TimeBodyAccelerometerJerkMeanZ
+* tBodyAccJerkMeanZ
 		
 		11 numeric 
 		   range: -1...1 
@@ -148,7 +148,7 @@
 		And the Jerk signals was obtain from this signal.
 		Mean value were estimated from these signals.
 
-* TimeBodyAccelerometerJerkStdX
+* tBodyAccJerkStdX
 		
 		11 numeric 
 		   range: -1...1 
@@ -157,7 +157,7 @@
 		And the Jerk signals was obtain from this signal.
 		Standard deviation were estimated from these signals.
 
-* TimeBodyAccelerometerJerkStdY 
+* tBodyAccJerkStdY 
 		
 		11 numeric 
 		   range: -1...1 
@@ -166,7 +166,7 @@
 		And the Jerk signals was obtain from this signal.
 		Standard deviation were estimated from these signals.
 
-* TimeBodyAccelerometerJerkStdZ
+* tBodyAccJerkStdZ
 		
 		11 numeric 
 		   range: -1...1 
@@ -175,7 +175,7 @@
 		And the Jerk signals was obtain from this signal.
 		Standard deviation were estimated from these signals.
 		
-* TimeBodyGyroscopeMeanX 
+* tBodyGyroMeanX 
 		
 		10 numeric 
 		   range: -1...1 
@@ -183,7 +183,7 @@
 		The body acceleration signal is measured in x axial from the gyroscope.
 		Mean value were estimated from these signals.
 		
-* TimeBodyGyroscopeMeanY 
+* tBodyGyroMeanY 
 		
 		12 numeric 
 		   range: -1...1 
@@ -191,7 +191,7 @@
 		The body acceleration signal is measured in y axial from the gyroscope.
 		Mean value were estimated from these signals.
 		
-* TimeBodyGyroscopeMeanZ 
+* tBodyGyroMeanZ 
 
 		10 numeric 
 		   range: -1...1 
@@ -199,7 +199,7 @@
 		The body acceleration signal is measured in z axial from the gyroscope.
 		Mean value were estimated from these signals.
 
-* TimeBodyGyroscopeStdX 
+* tBodyGyroStdX 
  		
  		11 numeric
  		   range: -1...1 
@@ -207,7 +207,7 @@
  		The body acceleration signal is measured in x axial from the gyroscope.
  		Standard deviation were estimated from these signals.
 
-* TimeBodyGyroscopeStdY
+* tBodyGyroStdY
 		
 		10 numeric 
 		range: -1...1 
@@ -215,7 +215,7 @@
 		The body acceleration signal is measured in y axial from the gyroscope.
 		Standard deviation were estimated from these signals.
 		
-* TimeBodyGyroscopeStdZ
+* tBodyGyroStdZ
 		
 		11 numeric 
 		   range: -1...1 
@@ -223,7 +223,7 @@
 		The body acceleration signal is measured in z axial from the gyroscope.
 		Standard deviation were estimated from these signals.
 		
-* TimeBodyGyroscopeJerkMeanX  
+* tBodyGyroJerkMeanX  
 		
 		11 numeric 
 		   range: -1...1
@@ -232,7 +232,7 @@
 		And the Jerk signals was obtain from this signal.
 		Mean value were estimated from these signals.
 		
-* TimeBodyGyroscopeJerkMeanY 
+* tBodyGyroJerkMeanY 
 
 		11 numeric 
 		   range: -1...1 
@@ -241,7 +241,7 @@
 		And the Jerk signals was obtain from this signal.
 		Mean value were estimated from these signals.
 		
-* TimeBodyGyroscopeJerkMeanZ 
+* tBodyGyroJerkMeanZ 
 		
 		11 numeric
 		   range: -1...1
@@ -250,7 +250,7 @@
 		And the Jerk signals was obtain from this signal.
 		Mean value were estimated from these signals.
 		
-* TimeBodyGyroscopeJerkStdX
+* tBodyGyroJerkStdX
 		
 		11 numeric 
 		   range: -1...1 
@@ -259,7 +259,7 @@
 		And the Jerk signals was obtain from this signal.
 		Standard deviation were estimated from these signals.
 		
-* TimeBodyGyroscopeJerkStdY 
+* tBodyGyroJerkStdY 
 		
 		11 numeric 
 		   range: -1...1 
@@ -268,7 +268,7 @@
 		And the Jerk signals was obtain from this signal.
 		Standard deviation were estimated from these signals.
 		
-* TimeBodyGyroscopeJerkStdZ 
+* tBodyGyroJerkStdZ 
 		
 		11 numeric 
 		   range: -1...1 
@@ -277,7 +277,7 @@
 		And the Jerk signals was obtain from this signal.
 		Standard deviation were estimated from these signals.
 		
-* TimeBodyAccelerometerMagnitudeMean
+* tBodyAccMagMean
 		
 		11 numeric 
 		   range: -1...1 
@@ -286,7 +286,7 @@
 		Also, the magnitude of these three-dimensional signals were calculated using the Euclidean norm.
 		Mean value were estimated from these signals.
 
-* TimeBodyAccelerometerMagnitudeStd 
+* tBodyAccMagStd 
 
 		11 numeric
 		   range: -1...1
@@ -294,7 +294,7 @@
 		The body acceleration signal is measured from the accelerometer.
 		Also, the magnitude of these three-dimensional signals were calculated using the Euclidean norm.
 		Standard deviation were estimated from these signals.		
-* GravityAccelerometerMagnitudeMean 
+* tGravityAccMagMean 
  		
  		11 numeric 
  		   range: -1...1 
@@ -303,7 +303,7 @@
  		Also, the magnitude of these three-dimensional signals were calculated using the Euclidean norm.
  		Mean value were estimated from these signals.
  		
-* GravityAccelerometerMagnitudeStd
+* tGravityAccMagStd
 		
 		11 numeric 
 		   range: -1...1
@@ -312,7 +312,7 @@
 		Also, the magnitude of these three-dimensional signals were calculated using the Euclidean norm.
 		Standard deviation were estimated from these signals.
 
-* TimeBodyAccelerometerJerkMagnitudeMean 
+* tBodyAccJerkMagMean 
 		
 		11 numeric 
 		   range: -1...1 
@@ -322,7 +322,7 @@
 		Also, the magnitude of these three-dimensional signals were calculated using the Euclidean norm.
 		Mean value were estimated from these signals.
 		
-* TimeBodyAccelerometerJerkMagnitudeStd  
+* tBodyAccJerkMagStd  
 		
 		11 numeric 
 		   range: -1...1 
@@ -332,7 +332,7 @@
 		Also, the magnitude of these three-dimensional signals were calculated using the Euclidean norm.
 		Standard deviation were estimated from these signals.
 		
-* TimeBodyGyroscopeMagnitudeMean 
+* tBodyGyroMagMean 
 		
 		11 numeric 
 		   range: -1...1 
@@ -341,7 +341,7 @@
 		Also, the magnitude of these three-dimensional signals were calculated using the Euclidean norm.
 		Mean value were estimated from these signals.
 		
-* TimeBodyGyroscopeMagnitudeStd 
+* tBodyGyroMagStd 
 		
 		11 numeric 
 		   range: -1...1 
@@ -350,7 +350,7 @@
 		Also, the magnitude of these three-dimensional signals were calculated using the Euclidean norm.
 		Standard deviation were estimated from these signals.
 		
-* TimeBodyGyroscopeJerkMagnitudeMean 
+* tBodyGyroJerkMagMean 
 		
 		11 numeric 
 		   range: -1...1 
@@ -360,7 +360,7 @@
 		Also, the magnitude of these three-dimensional signals were calculated using the Euclidean norm.
 		Mean value were estimated from these signals.
 		
-* TimeBodyGyroscopeJerkMagnitudeStd 
+* tBodyGyroJerkMagStd 
 		
 		11 numeric 
 		   range: -1...1 
@@ -370,7 +370,7 @@
 		Also, the magnitude of these three-dimensional signals were calculated using the Euclidean norm.
 		Standard deviation were estimated from these signals.
 		
-* FFTBodyAccelerometerMeanX 
+* fBodyAccMeanX 
 		
 		11 numeric 
 		   range: -1...1 
@@ -379,7 +379,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Mean value were estimated from these signals.
 		
-* FFTBodyAccelerometerMeanY  
+* fBodyAccMeanY  
 		
 		11 numeric 
 		   range: -1...1 
@@ -388,7 +388,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Mean value were estimated from these signals.
 		
-* FFTBodyAccelerometerMeanZ 
+* fBodyAccMeanZ 
 		
 		11 numeric 
 		   range: -1...1 
@@ -397,7 +397,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Mean value were estimated from these signals.
 		
-* FFTBodyAccelerometerStdX
+* fBodyAccStdX
 		
 		11 numeric 
 		   range: -1...1 
@@ -406,7 +406,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Standard deviation were estimated from these signals.
 		
-* FFTBodyAccelerometerStdY  
+* fBodyAccStdY  
 		
 		11 numeric 
 		   range: -1...1 
@@ -415,7 +415,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Standard deviation were estimated from these signals.
 		
-* FFTBodyAccelerometerStdZ 
+* fBodyAccStdZ 
 		
 		11 numeric 
 		   range: -1...1 
@@ -424,7 +424,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Standard deviation were estimated from these signals.
 		
-* FFTBodyAccelerometerMeanfreqX   
+* fBodyAccMeanfreqX   
 		
 		11 numeric 
 		   range: -1...1 
@@ -433,7 +433,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Weighted average of the frequency components to obtain a mean frequency.
 		
-* FFTBodyAccelerometerMeanfreqY 
+* fBodyAccMeanfreqY 
 		
 		10 numeric 
 		   range: -1...1
@@ -442,7 +442,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Weighted average of the frequency components to obtain a mean frequency.
 		
-* FFTBodyAccelerometerMeanfreqZ   
+* fBodyAccMeanfreqZ   
 		
 		11 numeric 
 		   range: -1...1 
@@ -451,7 +451,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Weighted average of the frequency components to obtain a mean frequency.
 		
-* FFTBodyAccelerometerJerkMeanX 
+* fBodyAccJerkMeanX 
 		
 		11 numeric 
 		   range: -1...1 
@@ -461,7 +461,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Mean value were estimated from these signals.
 		
-* FFTBodyAccelerometerJerkMeanY 
+* fBodyAccJerkMeanY 
 		
 		9 numeric 
 		  range: -1...1 
@@ -471,7 +471,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Mean value were estimated from these signals.
 		
-* FFTBodyAccelerometerJerkMeanZ 
+* fBodyAccJerkMeanZ 
 		
 		10 numeric 
 		   range: -1...1
@@ -481,7 +481,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Mean value were estimated from these signals.
 		
-* FFTBodyAccelerometerJerkStdX 
+* fBodyAccJerkStdX 
 		
 		11 numeric 
 		   range: -1...1 
@@ -491,7 +491,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Standard deviation were estimated from these signals.
 		
-* FFTBodyAccelerometerJerkStdY 
+* fBodyAccJerkStdY 
 		
 		11 numeric 
 	       range: -1...1 
@@ -501,7 +501,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Standard deviation were estimated from these signals.
 
-* FFTBodyAccelerometerJerkStdZ 
+* fBodyAccJerkStdZ 
 		
 		11 numeric 
 		   range: -1...1 
@@ -511,7 +511,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Standard deviation were estimated from these signals.
 		
-* FFTBodyAccelerometerJerkMeanfreqX 
+* fBodyAccJerkMeanfreqX 
 		
 		10 numeric 
 		   range: -1...1 
@@ -521,7 +521,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Weighted average of the frequency components to obtain a mean frequency.
 		
-* FFTBodyAccelerometerJerkMeanfreqY  
+* fBodyAccJerkMeanfreqY  
 		
 		10 numeric 
 		   range: -1...1 
@@ -530,14 +530,14 @@
 		And the Jerk signals was obtain from this signal.
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.Weighted average of the frequency components to obtain a mean frequency.
 		
-* FFTBodyAccelerometerJerkMeanfreqZ  
+* fBodyAccJerkMeanfreqZ  
 		
 		11 numeric 
 	       range: -1...1 
 		
 		The body acceleration signal is measured in z axial from the accelerometer.And the Jerk signals was obtain from this signal.Finally a Fast Fourier Transform (FFT) was applied to this signal.Weighted average of the frequency components to obtain a mean frequency.
 
-* FFTBodyGyroscopeMeanX 
+* fBodyGyroMeanX 
 		
 		11 numeric 
 		   range: -1...1 
@@ -545,7 +545,7 @@
 		The body acceleration signal is measured in x axial from the gyroscope.
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.Mean value were estimated from these signals.
 
-* FFTBodyGyroscopeMeanY 
+* fBodyGyroMeanY 
 		
 		11 numeric 
 		   range: -1...1 
@@ -554,7 +554,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Mean value were estimated from these signals.
 
-* FFTBodyGyroscopeMeanZ 
+* fBodyGyroMeanZ 
 		
 		11 numeric 
 		   range: -1...1 
@@ -563,7 +563,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Mean value were estimated from these signals.
 
-* FFTBodyGyroscopeStdX 
+* fBodyGyroStdX 
 		
 		11 numeric 
 		   range: -1...1 
@@ -572,7 +572,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Standard deviation were estimated from these signals.
 
-* FFTBodyGyroscopeStdY 
+* fBodyGyroStdY 
 		
 		9 numeric 
 		  range: -1...1 
@@ -581,7 +581,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Standard deviation were estimated from these signals.
 		
-* FFTBodyGyroscopeStdZ 
+* fBodyGyroStdZ 
 		
 		11 numeric 
 		   range: -1...1 
@@ -590,14 +590,14 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Standard deviation were estimated from these signals.
 
-* FFTBodyGyroscopeMeanfreqX 
+* fBodyGyroMeanfreqX 
 		
 		10 numeric 
 		   range: -1...1 
 		
 		The body acceleration signal is measured in x axial from the gyroscope.Finally a Fast Fourier Transform (FFT) was applied to this signal.Weighted average of the frequency components to obtain a mean frequency.
 		
-* FFTBodyGyroscopeMeanfreqY
+* fBodyGyroMeanfreqY
 		
 		12 numeric 
 		   range: -1...1 
@@ -606,7 +606,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Weighted average of the frequency components to obtain a mean frequency.
 		
-* FFTBodyGyroscopeMeanfreqZ 
+* fBodyGyroMeanfreqZ 
 		
 		10 numeric 
 		   range: -1...1 
@@ -615,7 +615,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Weighted average of the frequency components to obtain a mean frequency.
 		
-* FFTBodyAccelerometerMagnitudeMean 
+* fBodyAccMagMean 
 		
 		11 numeric 
 		   range: -1...1 
@@ -623,7 +623,7 @@
 		Also, the magnitude of these three-dimensional signals were calculated using the Euclidean norm.
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.Mean value were estimated from these signals.
 
-* FFTBodyAccelerometerMagnitudeStd 
+* fBodyAccMagStd 
 		
 		9 numeric 
 	      range: -1...1 
@@ -633,7 +633,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Standard deviation were estimated from these signals.
 
-* FFTBodyAccelerometerMagnitudeMeanfreq
+* fBodyAccMagMeanfreq
 		
 		11 numeric 
 		   range: -1...1 
@@ -643,7 +643,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Weighted average of the frequency components to obtain a mean frequency.
 		
-* FFTBodyAccelerometerJerkMagnitudeMean 
+* fBodyAccJerkMagMean 
 		
 		11 numeric 
 		   range: -1...1 
@@ -654,7 +654,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Mean value were estimated from these signals.
 		
-* FFTBodyAccelerometerJerkMagnitudeStd
+* fBodyAccJerkMagStd
 		
 		11 numeric 
 		   range: -1...1 
@@ -664,7 +664,7 @@
 		Also, the magnitude of these three-dimensional signals were calculated using the Euclidean norm.
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.Standard deviation were estimated from these signals.
 		
-* FFTBodyAccelerometerJerkMagnitudeMeanfreq 
+* fBodyAccJerkMagMeanfreq 
 
 		12 numeric 
 		   range: -1...1 
@@ -675,7 +675,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Weighted average of the frequency components to obtain a mean frequency.
 		
-* FFTBodyGyroscopeMagnitudeMean 
+* fBodyGyroMagMean 
 		
 		8 numeric 
 		  range: -1...1 
@@ -685,7 +685,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Mean value were estimated from these signals.
 		
-* FFTBodyGyroscopeMagnitudeStd 
+* fBodyGyroMagStd 
 		
 		11 numeric 
 		   range: -1...1 
@@ -695,7 +695,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Standard deviation were estimated from these signals.
 		
-* FFTBodyGyroscopeMagnitudeMeanfreq 
+* fBodyGyroMagMeanfreq 
 		
 		12 numeric 
 		   range: -1...1 
@@ -705,7 +705,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Weighted average of the frequency components to obtain a mean frequency.
 		
-* FFTBodyGyroscopeJerkMagnitudeMean 
+* fBodyGyroJerkMagMean 
 		
 		11 numeric 
 		   range: -1...1 
@@ -716,7 +716,7 @@
 	    Finally a Fast Fourier Transform (FFT) was applied to this signal.
 	    Mean value were estimated from these signals.
 	    
-* FFTBodyGyroscopeJerkMagnitudeStd 
+* fBodyGyroJerkMagStd 
 
 		11 numeric 
 		   range: -1...1 
@@ -727,7 +727,7 @@
 		Finally a Fast Fourier Transform (FFT) was applied to this signal.
 		Standard deviation were estimated from these signals.
 
-* FFTBodyGyroscopeJerkMagnitudeMeanfreq 
+* fBodyGyroJerkMagMeanfreq 
 		
 		11 numeric 
 		   range: -1...1 
